@@ -30,7 +30,8 @@
     color: #d6d6d6;
 }
 
-.theme-light .embedFieldName-NFrena {
+.theme-light .embedFieldName-NFrena,
+.theme-light .topic-2QX7LI {
     color: white;
 }
 
@@ -84,7 +85,7 @@
 }
 
 .theme-light .guild-1EfMGQ .guildInner-3DSoA4 {
-    opacity: .7;
+    opacity: 1;
 }
 
 .theme-light .guildsAdd-21_IdK {
@@ -110,7 +111,27 @@
 .guildsWrapper-5TJh6A,
 .channels-Ie2l6A,
 .theme-light .chat-3bRxxu,
+.theme-light .activityFeed-28jde9,
 .theme-light .content-yTz4x3, .theme-light .noChannel-Z1DQK7,
 .members-1998pB {
     background-color: transparent !important;
 }
+
+
+.theme-light .divider-3gKybi.dividerRed-MKoLlr>span {
+    color: blue;
+}
+
+.theme-light .divider-3gKybi, .theme-light .divider-3gKybi:before {
+    background-color: transparent;   
+}
+
+.theme-light .size-1Arx_I {
+    color: rgba(255, 255, 255, 0.50);
+}
+
+.theme-light .typing-2GQL18 {
+    background: transparent;
+    color: white;
+}
+
