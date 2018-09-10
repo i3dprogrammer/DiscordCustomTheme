@@ -1,0 +1,117 @@
+
+.app {
+    background-image: url(https://i.imgur.com/Z0QE4ji.jpg) !important;
+    background-size: cover !important;
+}
+
+.app *[class^='layer'], .app *[class*=' layer']{
+    background: transparent !important;
+}
+
+.flex-1xMQg5 {
+    background: transparent !important;
+}
+
+.theme-light .nameMutedText-3Vj4bM, .theme-light .nameMutedVoice-3oxyQZ {
+    color: #a5a5a5 !important;
+}
+.theme-light .nameDefaultText-24KCy5, .theme-light .nameDefaultVoice-3WUH7s, .nameLockedText-3pqQcL, .nameLockedVoice-26MhB1 {
+    color: #a5a5a5 !important;
+}
+
+.theme-light .markup-2BOw-j, .theme-light  {
+    color: #cecece !important;
+}
+
+.iconCollapsed-3hFp_8, .iconDefault-3Gr8d2, .nameCollapsed-34uFWo, .nameDefault-2DI02H {
+    color: #00ab00;
+}
+
+.theme-light .activity-1IYsbk {
+    color: #d6d6d6;
+}
+
+.theme-light .embedFieldName-NFrena {
+    color: white;
+}
+
+.theme-light .embedFieldValue-nELq2s,  .theme-light .embedFooterText-28V_Wb {
+    color: #adacac;
+}
+
+.theme-light .embedDescription-1Cuq9a {
+    color: white;
+}
+
+.theme-light .embedAuthorName-3mnTWj {
+    color: white !important;
+}
+
+.theme-light .iconForeground-3y9f0B, .theme-light .title-1aVOXw {
+    color: white;
+}
+
+.theme-light .channelName-3stJzi, .theme-light .groupDM-3qU0Ks .channelName-3stJzi, .theme-light .groupDMManaged-1GyXtq .channelName-3stJzi, .theme-light .input-autosize-input {
+    color: white;
+}
+
+.theme-light .dividerEnabled-2TTlcf {
+    border-bottom-color: rgba(152, 152, 152, 0.5) !important;
+}
+
+.scrollerWrap-2su1QI {
+    padding: 10px 0px;
+}
+
+.theme-light .inner-zqa7da {
+    background-color: rgba(0, 0, 0, 0.5);
+	border: 1px rgba(255,255,255,0.3) solid;
+}
+
+.theme-light .attachButtonPlus-rUdX-B {
+    fill: white;
+}
+
+.theme-light .reaction-1ELvT8.reactionMe-23mbRf .reactionCount-2ddRoS {
+    color: #0012bb;
+}
+
+.theme-light .textArea-2Spzkt {
+    color: white;
+}
+
+.nameDefault-2s3kbY {
+    color: rgba(255, 255, 255, 0.86);
+}
+
+.theme-light .guild-1EfMGQ .guildInner-3DSoA4 {
+    opacity: .7;
+}
+
+.theme-light .guildsAdd-21_IdK {
+    background: transparent;
+    border-radius: 50%;
+    border: 1px currentColor dashed;
+    color: rgba(255, 255, 255, .5);
+}
+
+.theme-light .divider-3gKybi>span {
+    background: rgba(255, 255, 255, 0.5);
+    color: black;
+}
+
+.theme-light .divider-3gKybi, .theme-light .divider-3gKybi:before {
+    background-color: none;
+}
+
+.theme-light .username-_4ZSMR {
+    color: none;
+}
+
+.guildsWrapper-5TJh6A,
+.channels-Ie2l6A,
+.theme-light .chat-3bRxxu,
+.theme-light .content-yTz4x3, .theme-light .noChannel-Z1DQK7,
+.members-1998pB {
+    background-color: transparent !important;
+}
