@@ -14,6 +14,7 @@
 .theme-light .nameMutedText-3Vj4bM, .theme-light .nameMutedVoice-3oxyQZ {
     color: #a5a5a5 !important;
 }
+
 .theme-light .nameDefaultText-24KCy5, .theme-light .nameDefaultVoice-3WUH7s, .nameLockedText-3pqQcL, .nameLockedVoice-26MhB1 {
     color: #a5a5a5 !important;
 }
@@ -35,7 +36,8 @@
     color: white;
 }
 
-.theme-light .embedFieldValue-nELq2s,  .theme-light .embedFooterText-28V_Wb {
+.theme-light .embedFieldValue-nELq2s,
+.theme-light .embedFooterText-28V_Wb {
     color: #adacac;
 }
 
@@ -47,11 +49,15 @@
     color: white !important;
 }
 
-.theme-light .iconForeground-3y9f0B, .theme-light .title-1aVOXw {
+.theme-light .iconForeground-3y9f0B,
+.theme-light .title-1aVOXw {
     color: white;
 }
 
-.theme-light .channelName-3stJzi, .theme-light .groupDM-3qU0Ks .channelName-3stJzi, .theme-light .groupDMManaged-1GyXtq .channelName-3stJzi, .theme-light .input-autosize-input {
+.theme-light .channelName-3stJzi,
+.theme-light .groupDM-3qU0Ks .channelName-3stJzi,
+.theme-light .groupDMManaged-1GyXtq .channelName-3stJzi,
+.theme-light .input-autosize-input {
     color: white;
 }
 
@@ -100,7 +106,8 @@
     color: black;
 }
 
-.theme-light .divider-3gKybi, .theme-light .divider-3gKybi:before {
+.theme-light .divider-3gKybi,
+.theme-light .divider-3gKybi:before {
     background-color: none;
 }
 
