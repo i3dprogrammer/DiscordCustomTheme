@@ -1,0 +1,1 @@
+COPY discord_spellcheck.js %appdata%\discord\0.0.301\modules\discord_spellcheck\index.js /Y

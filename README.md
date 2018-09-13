@@ -2,15 +2,11 @@
 Custom discord theme for me and my friends.
 
 ## How to use
-Copy up everything in ThemeJS.js into Discord's Console (Open up by using Ctrl + Shift + I ) and you're good to go.
+Download script.bat and run it, and you're done.
 
-NOTE: You have to do this everytime you start up Discord (or just use BetterDiscord)
+NOTE: works only for Discord v0.0.301
 
-## Plan to do
-1. Instead of copying all the code directly, should make something like this useable.
+## TODO
 
-```javascript
-fetch('https://raw.githubusercontent.com/i3dprogrammer/DiscordCustomTheme/master/ThemeJS.js').then(res => { return res.text() }).then(str => eval(str))
-```
-
-2. Make this permanent
+- Automatically detect newest discord version.
+- Ability to change background image/text colors
