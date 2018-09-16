@@ -9,7 +9,7 @@ Custom discord theme for me and my friends.
 
 ### How to change background dynamically
 
-- Write "!bgchange LINK" anywhere in discord chat to change the background.
+Write "!bgchange LINK" anywhere in discord chat to change the background.
 
 Link Requirements:
 - Must be a direct image link
