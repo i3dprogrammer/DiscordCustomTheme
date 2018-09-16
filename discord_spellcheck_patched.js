@@ -132,3 +132,33 @@ StyleList.forEach(css => {
         sheet.insertRule(`${spec} { ${css.rules} }`, sheet.cssRules.length)
     })
 })
+
+
+const { remote } = require('electron');
+var contents = remote.getCurrentWebContents();
+
+function addListener(){
+	var input = document.querySelector('.textArea-2Spzkt');
+	input.removeEventListener('keydown', handleBackgroundChange, false);
+	input.addEventListener('keydown', handleBackgroundChange, false);
+}
+
+handleBackgroundChange = event => {
+	var input = document.querySelector('.textArea-2Spzkt');
+	if(input == null || input == undefined)
+		return;
+	if(event.key == 'Enter') {
+		if(input.value.includes(' ')){
+			if(input.value.split(' ')[0] == '!bgchange') {
+				sheet.insertRule(`.app {background-image: url(${input.value.split(' ')[1]}) !important;}`, sheet.cssRules.length)
+				console.log(`Changing background to: ${input.value.split(' ')[1]}`);
+			}
+		}
+	}
+}
+
+contents.on('did-navigate-in-page', () => {
+	addListener();
+});
+
+
