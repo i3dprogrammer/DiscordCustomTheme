@@ -121,7 +121,11 @@ var StyleList = [
     {
         specifier: ['.theme-light .embedAuthorName-3mnTWj'],
         rules: 'color: white !important;'
-    }    
+    },
+	{
+		specifier: ['.jumboable'],
+		rules: 'width: 7rem !important; height: 7rem !important;';
+	}
 ]
 
 
