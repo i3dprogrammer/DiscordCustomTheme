@@ -124,7 +124,7 @@ var StyleList = [
     },
 	{
 		specifier: ['.jumboable'],
-		rules: 'width: 7rem !important; height: 7rem !important;';
+		rules: 'width: 7rem !important; height: 7rem !important;margin-top:1rem !important;margin-bottom:1rem !important;'
 	}
 ]
 
